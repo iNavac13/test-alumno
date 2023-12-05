@@ -1,0 +1,38 @@
+/* LINEAS DE CODIGO PARA ELIMINAR FLECHAS DE INCREMENTO Y DECREMENTO EN INPUT TIPO NUMBER */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+/* COLOR DE FONDO PERSONALIZADO PARA NAVBAR */
+.UDC{
+  background: #669934;
+}
+
+/* COLOR DE FUENTE PERSONALIZADO PARA NAVBAR */
+.nav-link{
+  color: #FEFAE3 !important;
+  position: relative;
+}
+
+/* ANIMACION DE SUBRAYADO AL HACER HOVER EN BOTONES DEL NAVBAR */
+.nav-link:hover::after{
+  opacity: 1;
+}
+.nav-link::after{
+  transition: all 0.3s;
+  opacity: 0;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: #FEFAE3;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.borderBlack{
+  border: 1px solid black !important;
+}

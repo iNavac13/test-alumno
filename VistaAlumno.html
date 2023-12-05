@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumno Info</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg UDC">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <li class="nav-item">
+                        <a class="nav-link" href="/justificante">Justificante</a>
+                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/incidencia">Incidencia</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/casosespecial">Caso especial</a>
+                      </li>
+                </ul>
+                <form class="d-flex" method="post" action="/logout">
+                  <button class="btn btn-danger" type="submit">Cerrar Sesion</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+<div class="container-fluid mt-5 row justify-content-center">
+    <div class="col-2">
+        <img src="messi.jpg" class="img-thumbnail" alt="Imagen alumno">
+    </div>
+    <div class="col-4">
+        <p class="lead"><strong>Nombre:</strong> Leo Messi</p>        
+        <p class="lead"><strong>Número de cuenta:</strong> 20184554</p> 
+        <p class="lead"><strong>Semestre:</strong> 5</p>        
+        <p class="lead"><strong>Grupo:</strong> H</p>
+        <p class="lead" style="color:red"><strong>Caso Especial:</strong></p>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus non nobis eum ipsa in illo. Quia est dicta iusto praesentium sequi molestiae incidunt, laudantium quasi aliquid quis necessitatibus accusamus veritatis!</p>     
+    </div>
+    <div class="col-8">
+        <div class="card mt-5 mb-5"> 
+            <div class="col-12 d-flex justify-content-between card-title UDC p-3 align-items-center">
+                <h5>Justificante</h5>
+                <button class="btn btn-dark">Agregar</button>
+            </div>
+            <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere commodi eveniet quas dolores ullam perferendis tempore iusto! Magnam deserunt porro itaque odio facilis. Quae dolore, repellendus expedita quo odit excepturi?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere commodi eveniet quas dolores ullam perferendis tempore iusto! Magnam deserunt porro itaque odio facilis. Quae dolore, repellendus expedita quo odit excepturi?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere commodi eveniet quas dolores ullam perferendis tempore iusto! Magnam deserunt porro itaque odio facilis. Quae dolore, repellendus expedita quo odit excepturi?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere commodi eveniet quas dolores ullam perferendis tempore iusto! Magnam deserunt porro itaque odio facilis. Quae dolore, repellendus expedita quo odit excepturi?
+            </div>
+          </div>
+
+          <div class="card mt-5 mb-5"> 
+            <div class="col-12 d-flex justify-content-between card-title UDC p-3 align-items-center">
+                <h5>Incidencia</h5>
+                <button class="btn btn-dark">Agregar</button>
+            </div>
+            <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere commodi eveniet quas dolores ullam perferendis tempore iusto! Magnam deserunt porro itaque odio facilis. Quae dolore, repellendus expedita quo odit excepturi?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere commodi eveniet quas dolores ullam perferendis tempore iusto! Magnam deserunt porro itaque odio facilis. Quae dolore, repellendus expedita quo odit excepturi?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere commodi eveniet quas dolores ullam perferendis tempore iusto! Magnam deserunt porro itaque odio facilis. Quae dolore, repellendus expedita quo odit excepturi?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere commodi eveniet quas dolores ullam perferendis tempore iusto! Magnam deserunt porro itaque odio facilis. Quae dolore, repellendus expedita quo odit excepturi?
+            </div>
+          </div>
+
+    </div>
+</div>
+
+
+
+
+</body>
+
+</html>
